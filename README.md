@@ -2,39 +2,49 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# [Project Name] 🎯WalkWithMe
 
-## Basic Details
+## Basic Details 
 
-### Team Name: [Name]
+### Team Name: shecods
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1:Neha Sara Binu - Mar Baselios college of engineering and technology
+- Member 2:Neha Jackson - Mar Baselios college of engineering and technology
 
 ### Hosted Project Link
 [mention your project hosted link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+Walk With Me is a real-time women safety web application that allows users to trigger SOS alerts, notify trusted contacts, and access community support during emergencies. It provides location-based safety monitoring, incident tracking, and AI-powered assistance.
 
 ### The Problem statement
-[What problem are you solving?]
+To design a smart, real-time safety platform that proactively protects women by integrating AI distress detection, community-based emergency response, and location-aware risk alerts for both public and domestic environments.
 
 ### The Solution
-[How are you solving it?]
-
----
+Walk With Me is an AI-powered safety platform that provides a one-tap SOS alert system integrated with a secure cloud backend. It automatically detects distress through intelligent voice analysis, records emergency data, notifies trusted contacts, and instantly alerts nearby verified community workers who are trained and registered to respond during emergencies. These community guardians can provide immediate assistance, escalate to authorities, and support the user until help arrives. The platform also offers real-time risk alerts and discreet safety features for both public travel and household situations.
 
 ## Technical Details
 
 ### Technologies/Components Used
 
-**For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
+
+*Languages used*
+- JavaScript
+- SQL
+
+*Frameworks used*
+- React
+- React Router
+
+*Libraries used*
+- @supabase/supabase-js
+
+*Tools used*
+- Supabase
+- VS Code
+- Git
+- Chrome DevTools
 
 **For Hardware:**
 - Main components: [List main components]
@@ -42,14 +52,15 @@
 - Tools required: [List tools needed]
 
 ---
-
 ## Features
 
-List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+- One-tap SOS emergency alert  
+- Trusted contacts management  
+- Community guardian availability tracking  
+- Incident reporting & safety map  
+- Support chat interface  
+- AI safety assistant  
+- Safety statistics dashboard
 
 ---
 
@@ -58,14 +69,14 @@ List the key features of your project:
 ### For Software:
 
 #### Installation
-```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
-```
+> cd walk-with-me
+> npm install
+> REACT_APP_SUPABASE_URL=your_supabase_project_url
+> REACT_APP_SUPABASE_ANON_KEY=your_supabase_anon_key
 
 #### Run
-```bash
-[Run commands - e.g., npm start, python app.py]
-```
+> npm start
+> http://localhost:3000
 
 ### For Hardware:
 
@@ -82,29 +93,25 @@ List the key features of your project:
 ### For Software:
 
 #### Screenshots (Add at least 3)
+[Login page](image-14.png)
+[HomePage+SOS Alert](image.png)
+[SOS Button Activated](image-1.png)
+[HeatMap](image-2.png)
+[Activation of AI Distress Detector](image-3.png)
+[Overall Analysis of Dashboard](image-4.png)
 
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
 
 #### Diagrams
 
 **System Architecture:**
 
-![Architecture Diagram](docs/architecture.png)
-*Explain your system architecture - components, data flow, tech stack interaction*
+[Architecture Diagram](image-6.png)
 
 **Application Workflow:**
 
-![Workflow](docs/workflow.png)
-*Add caption explaining your workflow*
+[workflow](image-5.png)
 
----
+
 
 ### For Hardware:
 
@@ -118,18 +125,20 @@ List the key features of your project:
 
 #### Build Photos
 
-![Team](Add photo of your team here)
+![Team]![Neha Sara Binu](<WhatsApp Image 2026-02-21 at 07.29.06.jpeg>)
+![Neha Jackson](image-7.png)
 
-![Components](Add photo of your components here)
-*List out all components shown*
+components
+![login](image-8.png)
+![homepage](image-9.png)
+![alt text](image-10.png)
+[heat map](image-11.png)
+[AI Distress Detection](image-12.png)
+[When distress is detected](image-13.png)
 
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
-
----
+we tried to connect react and supabase for this project 
+react and backend code got setup
+![1.](image-15.png)
 
 ## Additional Documentation
 
